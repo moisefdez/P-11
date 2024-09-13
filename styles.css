@@ -19,7 +19,7 @@
 
 #wrap {
     width: 95%;
-    max-width: 1300px;
+    max-width: 1000px;
     height: auto;
     min-height: 500px;
     background-color: #141724;
@@ -29,4 +29,38 @@
     background-size:cover;
     background-repeat: no-repeat;
     overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+}
+
+/* circulos */
+
+#circulos{
+    width: 60%;
+    max-width: 1000px;
+    height: auto;
+    min-height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+#naranja{
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    position: absolute;
+    top: -9%;
+    background: linear-gradient(to top, #fb4b50, #fd7d2b, #feae0a);
+}
+
+#azul-verde{
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    background: linear-gradient(to top, #18a33b, #1aab89, #1896e6);
 }
