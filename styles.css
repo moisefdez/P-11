@@ -64,3 +64,7 @@
     left: 50%;
     background: linear-gradient(to top, #18a33b, #1aab89, #1896e6);
 }
+
+#contenedor{
+    position: absolute;
+}
