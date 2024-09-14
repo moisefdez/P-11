@@ -26,7 +26,7 @@
     box-shadow: 20px 20px 30px #4e3b24;
     background-image: url("./img/One-Piece-Live-action_1.jpg");
     background-position: center;
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
 
@@ -37,7 +37,7 @@
 
 /* circulos */
 
-#circulos{
+#circulos {
     width: 60%;
     max-width: 1000px;
     height: auto;
@@ -48,7 +48,7 @@
 }
 
 
-#naranja{
+#naranja {
     width: 270px;
     height: 270px;
     border-radius: 50%;
@@ -57,7 +57,7 @@
     background: linear-gradient(to top, #fb4b50, #fd7d2b, #feae0a);
 }
 
-#azul-verde{
+#azul-verde {
     width: 270px;
     height: 270px;
     border-radius: 50%;
@@ -67,24 +67,25 @@
     background: linear-gradient(to top, #18a33b, #1aab89, #1896e6);
 }
 
-#contenedor{
+#contenedor {
     position: absolute;
     width: 340px;
-    min-height:440px ;
-    background: rgb(255, 255, 255, 0.2);
+    min-height: 440px;
+    background: rgb(255, 255, 255, 0.1);
     border-radius: 5px;
+    backdrop-filter:blur(20px);
 
 }
 
-#contenedor h1{
-    color: rgb(245, 245,245);
+#contenedor h1 {
+    color: rgb(245, 245, 245);
     font-family: sans-serif;
     font-size: 17px;
-   margin-top: 10px;
-   margin-left: 33px;
+    margin-top: 10px;
+    margin-left: 33px;
 }
 
-#content{
+#content {
     width: 90%;
     height: 390px;
     background: transparent;
@@ -94,58 +95,278 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   overflow: hidden;
+    overflow: hidden;
+  
 }
 
-#content div{
+#content div {
     width: 95%;
     height: 80px;
-    background: rgb(254, 254, 254, 0.2);
-    margin-top: 10px;
+    background: rgba(43, 42, 42, 0.336);
+    margin-top: 5px;
     border-radius: 10px;
     display: flex;
-    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+  
+
 
 }
-#content div:last-child{
-    margin-bottom:10px ;
+
+#content div:last-child {
+    margin-bottom: 10px;
 }
 
 /* contenido */
 
+/* Lyffy */
 #luffy {
-
+    display: flex;
+    flex-wrap: wrap;
 }
 
-#luffy div{
+#luffy div {
     height: 50px;
     border-radius: 0px;
     background: transparent;
+
 }
 
-#luffy #img{
-    flex-basis: 30%;
+#luffy #img {
+    flex-basis: 25%;
     margin-left: 10px;
+    border-radius: 10px;
+
 }
 
-#luffy img{
+#luffy img {
     width: 80px;
+    object-fit: cover;
     border-radius: 10px;
 }
 
-#luffy #text{
+#luffy #text {
     flex-direction: column;
-    flex-basis: 70%;
-    justify-content: center;
-    padding-left: 10px;
+    align-items: start;
+    flex-basis: 63%;
+    padding-left: 8px;
 }
 
 
-#luffy #text:first-child{
+#luffy #text p:first-child {
     color: white;
-    
+    font-weight: 600;
+    font-size: 20px;
+
 }
 
-#luffy #numero{
-    flex-basis: 30%;
+#luffy #text p:last-child {
+    color: rgba(255, 255, 255, 0.747);
+
+}
+
+#luffy #numero {
+    flex-basis: 0%;
+    color: lightcoral;
+}
+
+/* ZORO */
+#zoro {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#zoro div {
+    height: 50px;
+    border-radius: 0px;
+    background: transparent;
+
+}
+
+#zoro #img {
+    flex-basis: 25%;
+    margin-left: 8px;
+}
+
+#zoro img {
+    width: 70px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#zoro #text {
+    flex-direction: column;
+    flex-basis: 63%;
+    align-items: start;
+    padding-left: 5px;
+}
+
+
+#zoro #text p:first-child {
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+#zoro #text p:last-child {
+    color: rgba(255, 255, 255, 0.747);
+
+}
+ 
+#zoro #numero {
+    flex-basis: 0%;
+    color: lightgreen;
+}
+
+/* nami */
+#nami {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#nami div {
+    height: 50px;
+    border-radius: 0px;
+    background: transparent;
+
+}
+
+#nami #img {
+    flex-basis: 25%;
+    margin-left: 8px;
+    border-radius: 10px;
+}
+
+#nami img {
+    width: 85px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#nami #text {
+    flex-direction: column;
+    flex-basis: 63%;
+    align-items: start;
+    padding-left: 5px;
+}
+
+
+#nami #text p:first-child {
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+#nami #text p:last-child {
+    color: rgba(255, 255, 255, 0.747);
+
+}
+ 
+#nami #numero {
+    flex-basis: 0%;
+    color: lightgreen;
+}
+
+/* Sanyi */
+#sanyi {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#sanyi div {
+    height: 50px;
+    border-radius: 0px;
+    background: transparent;
+
+}
+
+#sanyi #img {
+    flex-basis: 25%;
+    margin-left: 8px;
+    border-radius: 10px;
+}
+
+#sanyi img {
+    width: 85px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#sanyi #text {
+    flex-direction: column;
+    flex-basis: 63%;
+    align-items: start;
+    padding-left: 5px;
+}
+
+
+#sanyi #text p:first-child {
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+#sanyi #text p:last-child {
+    color: rgba(255, 255, 255, 0.747);
+
+}
+ 
+#sanyi #numero {
+    flex-basis: 0%;
+    color: lightgreen;
+}
+/* Brook */
+
+#brook {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#brook div {
+    height: 50px;
+    border-radius: 0px;
+    background: transparent;
+
+}
+
+#brook #img {
+    flex-basis: 25%;
+    margin-left: 8px;
+    border-radius: 10px;
+}
+
+#brook img {
+    width: 85px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#brook #text {
+    flex-direction: column;
+    flex-basis: 63%;
+    align-items: start;
+    padding-left: 5px;
+}
+
+
+#brook #text p:first-child {
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+#brook #text p:last-child {
+    color: rgba(255, 255, 255, 0.747);
+
+}
+ 
+#brook #numero {
+    flex-basis: 0%;
+    color: lightgreen;
 }
