@@ -73,7 +73,7 @@
     min-height: 440px;
     background: rgb(255, 255, 255, 0.1);
     border-radius: 5px;
-    backdrop-filter:blur(20px);
+    backdrop-filter: blur(20px);
 
 }
 
@@ -95,8 +95,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
-  
+    /*  overflow: hidden; */
+
 }
 
 #content div {
@@ -110,7 +110,7 @@
     justify-content: center;
     flex-wrap: wrap;
     overflow: hidden;
-  
+
 
 
 }
@@ -131,7 +131,6 @@
     height: 50px;
     border-radius: 0px;
     background: transparent;
-
 }
 
 #luffy #img {
@@ -169,7 +168,6 @@
 
 #luffy #numero {
     flex-basis: 0%;
-    color: lightcoral;
 }
 
 /* ZORO */
@@ -215,7 +213,7 @@
     color: rgba(255, 255, 255, 0.747);
 
 }
- 
+
 #zoro #numero {
     flex-basis: 0%;
     color: lightgreen;
@@ -265,7 +263,7 @@
     color: rgba(255, 255, 255, 0.747);
 
 }
- 
+
 #nami #numero {
     flex-basis: 0%;
     color: lightgreen;
@@ -315,11 +313,12 @@
     color: rgba(255, 255, 255, 0.747);
 
 }
- 
+
 #sanyi #numero {
     flex-basis: 0%;
     color: lightgreen;
 }
+
 /* Brook */
 
 #brook {
@@ -365,8 +364,137 @@
     color: rgba(255, 255, 255, 0.747);
 
 }
- 
+
 #brook #numero {
     flex-basis: 0%;
     color: lightgreen;
+}
+
+/* Hovers */
+
+
+#luffy:hover {
+    transition: 600ms ease;
+    transform: translateY(-12px);
+    background-color: rgba(255, 255, 255, 0.527);
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+
+#luffy:hover #text {
+    flex-basis: 58%;
+}
+
+#luffy:hover #numero {
+    color: #b8414b;
+    flex-basis: 10%;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 900;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+#luffy:hover #text p {
+    color: rgba(0, 0, 0, 0.726) !important;
+}
+
+#zoro:hover {
+    transition: 600ms ease;
+    transform: translateY(-12px);
+    background-color: rgba(255, 255, 255, 0.527);
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+#zoro:hover #text {
+    flex-basis: 58%;
+}
+
+#zoro:hover #numero {
+    color: #80d72c;
+    flex-basis: 10%;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 900;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+#zoro:hover #text p {
+    color: rgba(0, 0, 0, 0.726) !important;
+}
+
+#nami:hover {
+    transition: 600ms ease;
+    transform: translateY(-12px);
+    background-color: rgba(255, 255, 255, 0.527);
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+#nami:hover #text {
+    flex-basis: 58%;
+}
+
+#nami:hover #numero {
+    color: #b5392f;
+    flex-basis: 10%;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 900;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+#nami:hover #text p {
+    color: rgba(0, 0, 0, 0.726) !important;
+}
+
+#sanyi:hover {
+    transition: 600ms ease;
+    transform: translateY(-12px);
+    background-color: rgba(255, 255, 255, 0.527);
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+#sanyi:hover #text {
+    flex-basis: 58%;
+}
+
+#sanyi:hover #numero {
+    color: #f3e87f;
+    flex-basis: 10%;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 900;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+#sanyi:hover #text p {
+    color: rgba(0, 0, 0, 0.726) !important;
+}
+
+#brook:hover {
+    transition: 600ms ease;
+    transform: translateY(-12px);
+    background-color: rgba(255, 255, 255, 0.527);
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+#brook:hover #text {
+    flex-basis: 58%;
+}
+
+#brook:hover #numero {
+    color: #12257f;
+    flex-basis: 10%;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 900;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+#brook:hover #text p {
+    color: rgba(0, 0, 0, 0.726) !important;
 }
